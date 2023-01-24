@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>technical documentation brainfuck</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <nav id="navbar">
+    <header></header>
+    <ul>
+      <li class="nav-element"><a class="nav-link" href="#Introduction">Introduction</a></li>
+      <li class="nav-element"><a class="nav-link" href="#History">History</a></li>
+      <li class="nav-element"><a class="nav-link" href="#Language-Design">Language Design</a></li>
+    </ul>
+    <!-- left side of screen -->
+    <!-- use ar least one mediaquery -->
+  </nav>
+  <main id="main-doc">
+    <section class="main-section" id="Introduction">
+      <header class="section-header">Introduction</header>
+      <p>Brainfuck is an esoteric programming language created in 1993 by Urban Müller</p>
+      <p>Notable for its extreme minimalism, the language consists of only eight simple commands, a data pointer and an instruction pointer. While it is fully Turing complete, it is not intended for practical use, but to challenge and amuse programmers. Brainfuck requires one to break commands into microscopic steps.</p>
+      <p>The language's name is a reference to the slang term brainfuck, which refers to things so complicated or unusual that they exceed the limits of one's understanding, as it was not meant or made for designing actual software but to challenge the boundaries of computer programming.</p>
+      <!-- total p 10 -->
+      <!-- 5 elements each -->
+      <!-- 5 li total -->
+    </section>
+    <section class="main-section" id="History">
+      <header class="section-header">History</header>
+      <article>
+        <p>In 1992, Urban Müller, a Swiss physics student, took over a small online archive for Amiga software. The archive grew more popular, and was soon mirrored around the world. Today, it is the world's largest Amiga archive, known as Aminet.</p>
+        <p>Müller designed Brainfuck with the goal of implementing the smallest possible compiler, inspired by the 1024-byte compiler for the FALSE programming language. Müller's original compiler was implemented in machine language and compiled to a binary with a size of 296 bytes. He uploaded the first Brainfuck compiler to Aminet in 1993. The program came with a "Readme" file, which briefly described the language, and challenged the reader "Who can program anything useful with it? :)". Müller also included an interpreter and some quite elaborate examples. A second version of the compiler used only 240 bytes. There are currently many brainfuck compilers in the web.</p>
+        <p>As Aminet grew, the compiler became popular among the Amiga community, and in time it was implemented for other platforms.</p>
+        </article>
+    </section>
+    <section class="main-section" id="Language-Design">
+      <header class="section-header">Language design</header>
+      <article>
+        The language consists of eight commands, listed below. A brainfuck program is a sequence of these commands, possibly interspersed with other characters (which are ignored). The commands are executed sequentially, with some exceptions: an instruction pointer begins at the first command, and each command it points to is executed, after which it normally moves forward to the next command. The program terminates when the instruction pointer moves past the last command.
+        </article>
+        <ul>The  Brainfuck language uses
+        <li>a simple machine model consisting of the program and instruction pointer, as well as</li>
+        <li>an array of at least 30,000 byte-sized cells initialized to zero;</li>
+        <li>a movable data pointer (initialized to point to the leftmost byte of the array); and</li>
+        <li>two streams of bytes for input and output (most often connected to a keyboard and a monitor respectively, and using the ASCII character encoding).</li>
+      </ul>
+        <ul>
+          <li></li>
+        </ul>
+    </section>
+  </main>
+</body>
+</html>
