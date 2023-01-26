@@ -1,29 +1,67 @@
 * {
   margin: 0;
   padding: 0;
-  color: black;
+  color: #ffffff;
+  background-color: #1b1b1b;
+  font-family: sans-serif;
+  font-family: "Roboto", sans-serif, "Raleway", sans-serif;
 }
 .nav-link {
   font-size: 500;
   font-weight: bold;
-  border: 3px solid red;
+  /* border: 3px solid red; */
   text-decoration: none;
 }
 .section-header {
-  font-size: 500;
+  font-size: 22px;
   font-weight: bold;
   text-align: left;
-  margin-bottom: 5px;
-  border: 3px solid green;
+  margin-bottom: 16px;
+  /* border: 3px solid green; */
+  align-items: center;
+  color: #ff6d91;
+  Text-decoration-line: underline;
 }
 section {
-  margin-bottom: 50px;
-  border: 3px solid greenyellow;
+  margin-bottom: 35px;
+  /* border: 3px solid greenyellow; */
 }
 p {
-  margin-bottom: 5px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+.list {
+  list-style-type: square;
+}
+#navbar {
+  position: fixed;
+  min-width: 250px;
+  top: 0px;
+  left: 0px;
+  width: 200px;
+  height: 50%;
+  padding: 10px;
+  /* border: 3px solid red; */
+}
+.nav-header {
+  margin: 10px;
+  font-size: 26px;
+}
+#main-doc {
+  position: absolute;
+  margin-left: 300px;
+  padding: 20px 0;
+  margin-bottom: 110px;
 }
 .nav-element {
-  margin-bottom: 10px;
-  border: 3px solid goldenrod;
+  /* margin-bottom: 10px; */
+  /* border: 3px solid goldenrod; */
+  display: block;
+  font-size: 20px;
+      /* display: block; */
+        padding: 10px 30px 10px 10px;
+        /* color: #4d4e53; */
+        /* cursor: pointer; */
+        /* text-decoration: underline; */
 }
