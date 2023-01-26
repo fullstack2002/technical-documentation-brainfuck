@@ -3,16 +3,11 @@
   padding: 0;
   color: black;
 }
-/* .list {
-  list-style: none;
-} */
-/* .link {
-  text-decoration: none;
-} */
 .nav-link {
   font-size: 500;
   font-weight: bold;
   border: 3px solid red;
+  text-decoration: none;
 }
 .section-header {
   font-size: 500;
