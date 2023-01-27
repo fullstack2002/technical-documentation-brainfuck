@@ -27,7 +27,7 @@ section {
   margin-bottom: 35px;
   /* border: 3px solid greenyellow; */
 }
-p {
+p, article{
   font-size: 16px;
   margin-bottom: 10px;
   line-height: 1.5;
@@ -72,4 +72,16 @@ p {
   height: 100vh;
   top: 0;
   left: 250px;
+}
+.brainfuck-list {
+  font-size: 16px;
+  line-height: 1.5;
+}
+.brainfuck-list-item  {
+  margin-bottom: 5px;
+  margin-left: 20px;
+  list-style: disc;
+}
+.brainfuck-list-item:first-of-type {
+  margin-top: 10px;
 }
