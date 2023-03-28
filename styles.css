@@ -13,9 +13,10 @@
   text-decoration: none;
 }
 .nav-link:hover {
-  background: linear-gradient(360deg, rgba(129, 15, 169, 1) 0%, rgba(255, 109, 145, 1) 55%, rgba(243, 81, 81, 1) 96%) 100%;;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  background: linear-gradient(360deg, rgba(129, 15, 169, 1) 0%, rgba(255, 109, 145, 1) 55%, rgba(243, 81, 81, 1) 96%) 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .section-header {
   font-size: 18px;
